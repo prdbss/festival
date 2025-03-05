@@ -59,6 +59,39 @@ li:hover {
     box-shadow: 0 5px 15px rgba(255, 204, 255, 0.5);
 }
 
+
+form {
+    margin-top: 20px;
+}
+
+input[type="email"] {
+    padding: 12px;
+    width: 80%;
+    max-width: 400px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    margin-top: 10px;
+    padding: 12px 20px;
+    font-size: 1.2em;
+    background: linear-gradient(135deg, #ab46a7, #ffccff);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #ffccff, #ab46a7);
+}
+
+
 footer {
     background: linear-gradient(135deg, #3b1070, #ab46a7);
     padding: 25px;
